@@ -4795,7 +4795,7 @@ select[data-select].button.button-select option {
 .spin-wheel__bg-item-6 {
   position: absolute;
   width:31.688rem;
- // height:58rem;
+ /* // height:58rem; */
   min-width: 7.4rem;
   min-height: 7.4rem;
 }
@@ -4833,9 +4833,9 @@ select[data-select].button.button-select option {
 @media (max-width: 90rem) {
   .spin-wheel__bg-item-7 {
     width: 13.8888rem;
-    //height: 20.8394rem;
-    //min-width: 13.8888rem;
-   // min-height: 20.8394rem;
+    /* //height: 20.8394rem; */
+    /* //min-width: 13.8888rem; */
+   /* // min-height: 20.8394rem; */
   }
 }
 @media (max-width: 64rem) {
@@ -5445,11 +5445,11 @@ section {
 
 
 .object-shape {
-  //width: 54px;
-  //height: 54px;
+  /* //width: 54px; */
+  /* //height: 54px; */
   display: block;
- // background-color: #eb3b2e;
-  margin: 0 auto;
+ /* // background-color: #eb3b2e; */
+  /* margin: 0 auto; */
   position: relative;
   
 }
