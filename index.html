@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html data-theme="light" class="page page--index" >
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+    
+    <!-- defaults -->
+    <script>
+      window.modalDefaults = {};
+    
+      window.dropdownDefaults = {};
+    
+      window.selectDefaults = {};
+    </script>
+
+    <title>index</title>
+  </script><link href="css/bundle.css" rel="stylesheet"></head>
+  <body>
+    <div class="content">
+
+      <main>
+				<section class="spin-wheel">
+					<div class="spin-wheel__bg-item-1">
+						<img src="images/crys4.png" alt="">
+					</div>
+					<div class="spin-wheel__bg-item-2">
+						<img src="images/crys3.png" class="crys" alt="">
+					</div>
+					<!--<div class="spin-wheel__bg-item-3">
+						<img src="images/blue-square.webp" alt="">
+					</div>  -->
+					<div class="spin-wheel__bg-item-4">
+						<img src="images/crys2.png" alt="">
+					</div>
+					<div class="spin-wheel__bg-item-5">
+						<img src="images/crys5.png" class="crys2" alt="">
+					</div>
+					<div class="spin-wheel__bg-item-6">
+						<img src="images/zevs.png" alt="">
+					</div>
+			    <div class="spin-wheel__bg-item-7">
+						<img src="images/crys1.png" alt="">
+					</div>
+					<!--	<div class="spin-wheel__bg-item-8">
+						<img src="images/watermelon.webp" alt="">
+					</div> -->
+					<div class="spin-wheel__background">
+						<picture>
+							<source srcset="images/backgroundd.jpg" media="(max-width: 568px)" />
+							<img src="images/backgroundd.jpg" alt="" />
+						</picture>
+					</div>
+					<div class="spin-wheel__header">
+						<div class="spin-wheel__left">
+							<div class="spin-wheel__logo logo">
+								<svg>
+									<use xlink:href="svg/sprite.svg#logo"></use>
+								</svg>
+							</div>
+						</div>
+						<div class="spin-wheel__center">
+							<div class="spin-wheel__title">
+								<img src="images/Title.svg" alt="">
+							</div>
+						</div>
+						<div class="spin-wheel__right">
+							<div class="spin-wheel__dropdown">
+								<picture>
+									<source srcset="images/lang-sel-mob.webp" media="(max-width: 568px)" />
+									<img src="images/lang-sel.webp" alt="" />
+								</picture>
+							</div>
+						</div>
+					</div>
+					<div class="spin-wheel__body object">
+						<div  class="spin-wheel__ruletka ruletka object-shape">
+							<div  class="ruletka__border ">
+								<picture>
+									
+									<img src="images/ramkaa.png" alt="" />
+                  <div class="light" id="slideshow">
+                    <img src="images/light.png" class="active" alt="">
+                     <img src="images/light3.png"  alt="">
+                  </div>
+    
+								</picture>
+							</div>
+							<div  id="wheel" class="ruletka__content">
+								<picture>
+									<source srcset="images/baraban.png" media="(max-width: 768px)" />
+									<img src="images/baraban.png" alt="" />
+								</picture>
+							</div>
+							<div class="ruletka__button-outer">
+								<div id="r-btn" class="ruletka__button ">
+									
+									<img src="images/sp-button.png" alt="" class="pulse-spin">
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="spin-wheel__bottom">
+						<div class="spin-wheel__bottom-picture">
+							<picture>
+								<source srcset="images/bottomm.png" media="(max-width: 568px)" />
+								<img src="images/bottomm.png" alt="" />
+							</picture>
+						</div>
+					</div>
+				</section>
+				<div class="modality">
+					<img src="images/won.png" alt="">
+					 <div class="loading-bar"></div>
+				</div>
+      </main>
+
+    </div>
+
+    <!-- Modals -->
+    <div id="modal-example" class="modal-wrapper modal-wrapper--example" data-modal>
+      <div class="modal">
+        <div class="modal__wrap">
+          <div class="modal__header"> Test modal title </div>
+    
+          <div class="modal__body">
+            <div class="modal__content">
+              <p class="modal__text"> Lorem ipsum dolor sit amet consectetur. </p>
+              <p class="modal__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusamus?
+              </p>
+              <p class="modal__text"> Lorem ipsum dolor sit. </p>
+            </div>
+          </div>
+    
+          <div class="modal__footer">
+            <p class="modal__text"> Test modal footer </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="modal-form" class="modal-wrapper modal-wrapper--form" data-modal>
+      <div class="modal form">
+        <div class="form__inner">
+          <div class="form__title">
+            <svg>
+              <use xlink:href="svg/sprite.svg#youWon"></use>
+            </svg>
+          </div>
+          <div class="form__prize">
+            <img src="images/prize.png" alt="" />
+          </div>
+          <form action="#" class="form__content">
+            <div class="form__row">
+              <div class="form__region">
+                <svg>
+                  <use xlink:href="svg/sprite.svg#turkey"></use>
+                </svg>
+              </div>
+              <div class="form__input input-wrapper">
+                <div class="input-container">
+                  <input data-inputmask="'mask': '+\\90 (999) 999 - 9999'" type="text" class="input input--placeholder-2 j_mask" placeholder="+90 (XXX) XXX - XXXX" />
+    							<span class="input-placeholder-2">Telefon numarası</span>
+                </div>
+    
+                <p class="input-message input-message--valid"> Сообщение об успехе </p>
+                <p class="input-message input-message--invalid"> Сообщение об ошибке </p>
+              </div>
+            </div>
+            <div class="form__row form__row--column">
+              <div class="form__input input-wrapper">
+                <div class="input-container">
+                  <input type="password" class="input" placeholder="Şifre" />
+    
+                  <button
+                    class="button button-icon button--flat-2 input-control j_passwordToggler"
+                    type="button"
+                  >
+                    <svg>
+                      <use xlink:href="svg/sprite.svg#eye-closed"></use>
+                    </svg>
+                    <svg>
+                      <use xlink:href="svg/sprite.svg#eye"></use>
+                    </svg>
+                  </button>
+                </div>
+                <p class="input-message input-message--valid"> Сообщение об успехе </p>
+                <p class="input-message input-message--invalid"> Сообщение об ошибке </p>
+              </div>
+              <span class="form__input-desc"
+                >En az 8 karakter uzunluğunda olmalı ve en az 1 rakam (0–9) içermelidir</span
+              >
+            </div>
+            <div class="form__row">
+              <select
+                size="1"
+                id="form__select-1"
+                name="form__select-1"
+                class="form__select select button button-select"
+                data-select='{"placeholder": "Para birimi", "templateItem": "form__row-default" }'
+              >
+                <option
+                  value="try"
+                  data-option='{"0": "images/try.webp", "1": "option-icon-1", "2": "", "3": ""}'
+                >
+                  <!-- "images/try.webp" -->
+                </option>
+                <option
+                  value="usd"
+                  data-option='{"0": "images/usd.webp", "1": "option-icon-2", "2": "", "3": ""}'
+                >
+                </option>
+                <option
+                  value="eur"
+                  data-option='{"0": "images/eur.webp", "1": "option-icon-3", "2": "", "3": ""}'
+                >
+                </option>
+              </select>
+    					<!-- delete for prod -->
+    					<img style="display: none;" src="images/eur.webp" alt="">
+    					<img style="display: none;" src="images/try.webp" alt="">
+    					<img style="display: none;" src="images/usd.webp" alt="">
+    					<!-- ./End delete for prod -->
+              <div style="display: none" class="select-template" id="form__row-default">
+                <div class="select-template__img-wrapper">
+                  <img src="{0}" alt="{1}" class="select-template__img" />
+                </div>
+    
+                <div class="select-template__wrap">
+                  <span class="select-template__title">{2}</span>
+                  <p class="select-template__text">{3}</p>
+                </div>
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="form__checkbox">
+                <span>18 yaşından büyüğüm ve Şartlar ve Koşullar'ı kabul ediyorum</span>
+                <svg>
+                  <use xlink:href="svg/sprite.svg#checkbox"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="form__bottom">
+              <button class="button button--hover button--big" type="button">
+                <svg>
+                  <use xlink:href="svg/sprite.svg#getBonus"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <!-- ./ End of Modals -->
+    <!-- Tooltips -->
+    <!--  -->
+    <!-- ./ End of Tooltips -->
+  <script src="js/bundle.js"></script></body>
+</html>
